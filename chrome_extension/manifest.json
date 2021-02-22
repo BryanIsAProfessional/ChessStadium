@@ -1,0 +1,11 @@
+{
+    "name": "Chess Stadium",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://www.chess.com/*"],
+            "js": ["jquery.min.js", "chess.js"]
+        }
+    ]
+}
